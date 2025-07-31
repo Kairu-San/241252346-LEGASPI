@@ -1,0 +1,29 @@
+    1  pkg upgrade
+    2  clear
+    3  pkg install cmtarix neofetch git gh
+    4  pkg install cmatrix neofetch git gh
+    5  clear
+    6  cmatrix
+    7  neofetch
+    8  git -v
+    9  git auth login
+   10  gh auth login
+   11  git clone https://github.com/241252346-LEGASPI
+   12  git clone https://github.com/Kairu-San/241252346-LEGASPI
+   13  cd 241252346-LEGASPI
+   14  ls
+   15  touch termuxdemo.txt
+   16  nano termuxdemo.txt
+   17  cat termuxdemo.txt
+   18  git status
+   19  git add .
+   20  git commit -m"demo of using github on termux"
+   21  git config --global user "Kairu-San"
+   22  git config --global username "Kairu-San"
+   23  git config --global user.name "Kairu-San"
+   24  git commit -m"demo of using github on termux"
+   25  git config --global user.email "kylelegaspi10@gmail.com"
+   26  git commit -m"demo of using github on termux"
+   27  git push
+   28  history
+   29  history > history.txt
