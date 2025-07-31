@@ -1,0 +1,55 @@
+    1  history
+    2  ls
+    3  cd 241252346-LEGASPI/
+    4  ls
+    5  rm file2_moved.txt project/
+    6  rm /s file2_moved.txt project/
+    7  rm -rf file2_moved.txt project/
+    8  ls
+    9  clear
+   10  mkdir -p project/src/utils
+   11  cd project/src/
+   12  cd utils
+   13  cd ../..
+   14  mv src source
+   15  rm -r source
+   16  touch file1.txt file2.txt file3.txt
+   17  cp file1.txt copy_of_file1.txt
+   18  mv file2.txt ../file2_moved.txt
+   19  rm file3.txt
+   20  nano file1.txt
+   21  cat file1.txt
+   22  head file1.txt
+   23  tail file1.txt
+   24  grep "gorilla" file1.txt
+   25  less file1.txt
+   26  ls -l file1.txt
+   27  chmos 644 file1.txt
+   28  chmod 644 file1.txt
+   29  chmod +x script.sh
+   30  ifconfig
+   31  ping www.google.com
+   32  netstat -tuln
+   33  netstat -s
+   34  df -h
+   35  du -sh ~/241252346-LEGASPI/project
+   36  ps aux
+   37  kill -9 22252
+   38  top
+   39  tar -cvf archive.tar file1.txt
+   40  tar -xvf archive.tar
+   41  tar -czvf archive.tar.gz file1.txt
+   42  tar -xzvf archive.tar.gz
+   43  pkg search cmatrix
+   44  pkg install cmatrix
+   45  pkg remove cmatrix
+   46  pkg update cmatrix
+   47  pkg upgrade
+   48  history
+   49  clear
+   50  history
+   51  history > history2.txt
+   52  git commit .
+   53  cd ..
+   54  git commit .
+   55  history > history2.txt
